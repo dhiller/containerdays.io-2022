@@ -12,6 +12,22 @@ Contains a pdf version of the [slides for the presentation](./slides/containerda
 
 Contains the scripts I used to [deploy the kubevirtci cluster](./hack/deploy-kubevirt-on-kubevirtci.sh) and to [import the vm disk](./hack/import-vm-image.sh).
 
+#### `kubectl virt ...`
+
+Note: whenever you are reading 
+
+```shell
+$ kubectl virt ...
+```
+
+effectively [`virtctl`](https://kubevirt.io/user-guide/operations/virtctl_client_tool/) is used. This is achieved through the [kubectl-virt-plugin](https://github.com/kubevirt/kubectl-virt-plugin) which is based on [krew](https://krew.sigs.k8s.io/).
+
+Those calls can be replaced by
+
+```shell
+$ virtctl ...
+```
+
 ### [manifests](./manifests/)
 
 Contains the manifests for the [example vm](./manifests/windows-xp-vm.yaml) and for the [snapshot](./manifests/snapshot.yaml) resp. [restore](./manifests/restore-snapshot.yaml) objects I used
