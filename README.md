@@ -1,5 +1,7 @@
 # containerdays.io 2022
 
+NOTE: this repo has been moved to https://github.com/dhiller/presentations/tree/master/2022-containerdays.io
+
 ## KubeVirt - Making running virtual machines in Kubernetes a mainstream activity
 
 This repository contains the accompanying material for [my talk at containerdays 2022](https://www.containerdays.io/agenda/conferenceday2/#kubevirt-making-running-virtual-machines-in-a-kubernetes-cluster-a-mainstream-activity)
